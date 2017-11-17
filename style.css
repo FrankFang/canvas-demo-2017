@@ -11,10 +11,7 @@ ul,ol{list-style: none;}
 }
 
 body{
-  margin: 0px;
-}
-
-html{
+  overflow: hidden;
 }
 
 .actions{
