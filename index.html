@@ -6,9 +6,19 @@
   <title>我的画板</title>
   <canvas id="xxx" width=300 height=300></canvas>
   <div id=actions class="actions">
-    <button id=eraser>橡皮擦</button>
-    <button id=brush>画笔</button>
+    <svg id=pen class="active icon">
+      <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg id=eraser class="icon">
+      <use xlink:href="#icon-erase"></use>
+    </svg>
   </div>
+  <ol class="colors">
+    <li id="red" class="red active"></li>
+    <li id="green" class="green"></li>
+    <li id="blue" class="blue"></li>
+  </ol>
   <script src="./main.js"></script>
+  <script src="//at.alicdn.com/t/font_478967_fs93z8o7cra7cik9.js"></script>
   
 </html>
